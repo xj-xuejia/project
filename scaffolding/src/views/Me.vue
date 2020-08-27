@@ -5,10 +5,12 @@
       <div class="topw">我的</div>
     </div>
     <div class="zynr">
-      <div class="loginw">
-        <!--<img src alt />-->
-        <a href="/login">点击登录</a>
-      </div>
+      <!--<img src alt />-->
+      <label>
+        <router-link to="/login">
+          <div class="loginw">登录</div>
+        </router-link>
+      </label>
       <!-- 选项卡 -->
       <mt-navbar v-model="active" id="go">
         <mt-tab-item id="1">
@@ -113,10 +115,11 @@
 </template>
 <style scoped>
 .loginw {
+  text-align: center;
   width: 91%;
   background: #1ed;
   padding: 1rem;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 50px;
   margin: 1rem 0;
 }
