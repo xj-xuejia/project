@@ -23,22 +23,29 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /*text-align: center;*/
   color: #2c3e50;
 }
+/*#app div {
+  background-color: #e1e1e2;
+}
+
 
 #nav {
   padding: 10px;
   background-color: #faafff;
 }
 
+#nav a.router-link-exact-active {
+  color: #42b983;
+}*/
 #nav a {
   font-weight: bold;
   color: #000;
   text-decoration: none;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.mint-tabbar > .mint-tab-item.is-selected {
+  /* background-color: #eaeaea; */
+  color: #26a2ff;
 }
 </style>
